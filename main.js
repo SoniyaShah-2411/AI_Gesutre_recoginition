@@ -39,5 +39,5 @@ background('lightblue');
 document.getElementById("radius_Circle").innerHTML="Radius of the circle will be = "+difference+"px";
 fill('black');
 stroke('black');
-rect(noseX,noseY,difference);
+circle(noseX,noseY,difference);
 }
