@@ -33,14 +33,11 @@ console.log("leftWristX = "+leftWristX + "rightWristX = "+rightWristX+ "differen
 }
 }
 
-function preload(){
-}
-
 function draw(){
 background('lightblue');
 
 document.getElementById("radius_Circle").innerHTML="Radius of the circle will be = "+difference+"px";
 fill('black');
 stroke('black');
-Circle(noseX,noseY,difference);
+rect(noseX,noseY,difference);
 }
