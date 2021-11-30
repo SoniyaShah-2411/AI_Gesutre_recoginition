@@ -35,7 +35,7 @@ console.log("leftWristX = "+leftWristX + "rightWristX = "+rightWristX+ "differen
 
 function draw(){
 background('lightblue');
-
+<br>
 document.getElementById("radius_Circle").innerHTML="Radius of the circle will be = "+difference+"px";
 fill('black');
 stroke('black');
